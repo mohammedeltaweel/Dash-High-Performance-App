@@ -13,6 +13,7 @@ redis_url = os.getenv("REDIS_URL")
 
 # Create a Redis client using the URL
 redis_client = redis.from_url(redis_url)
+
 redis_client.expire('my_key', 3600)
 
 external_stylesheets = [
@@ -27,7 +28,8 @@ server = app.server
 CACHE_CONFIG = {
     # try 'FileSystemCache' if you don't want to setup redis
     'CACHE_TYPE': 'redis',
-    'CACHE_REDIS_URL': os.environ.get('REDIS_URL', 'redis://localhost:6379')
+    'CACHE_REDIS_URL': os.environ.get('REDIS_URL', 'redis://localhost:6379'),
+    'CACHE_DEFAULT_TIMEOUT': 3600
 }
 print(os.environ.get('REDIS_URL', 'redis://localhost:6379'))
 cache = Cache()
