@@ -9,8 +9,10 @@ import pandas as pd
 from flask_caching import Cache
 import redis
 
-# Connect to your Redis server
-redis_client = redis.StrictRedis(host='localhost', port=6379, db=0)
+redis_url = os.getenv("REDIS_URL")
+
+# Create a Redis client using the URL
+redis_client = redis.from_url(redis_url)
 redis_client.expire('my_key', 3600)
 
 external_stylesheets = [
