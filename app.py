@@ -47,6 +47,7 @@ df['x'] = np.random.randn(len(df['category']))
 df['y'] = np.random.randn(len(df['category']))
 
 app.layout = html.Div([
+    html.Div(redis_url),
     dcc.Dropdown(df['category'].unique(), 'apples', id='dropdown'),
     html.Div([
         html.Div(dcc.Graph(id='graph-1'), className="six columns"),
