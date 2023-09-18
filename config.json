@@ -1,0 +1,339 @@
+{
+    "Connectivity": {
+      "logo": "svg",
+      "topic-comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, fuga harum officia eligendi at error in asperiores aliquid delectus sed aut, praesentium nam deserunt alias! Beatae eveniet cum nisi accusantium!",
+      "featured-indicators": [
+        {
+          "name": "Ease and smoothness of traffic",
+          "icon": "fa-solid fa-traffic-light fa-2x"
+        },
+        {
+          "name": "Per capita share of asphalt roads",
+          "icon": "fa-solid fa-road fa-2x"
+        },
+        {
+          "name": "Average daily trip time (minutes)",
+          "icon": "fa-solid fa-hourglass-half fa-2x"
+        },
+        {
+          "name": "distribution of satisfaction in the traffic and transportation",
+          "icon": "fa-regular fa-face-smile fa-2x"
+        },
+        {
+          "name": "Availability of public transportation",
+          "icon": "fa-solid fa-train-subway fa-2x"
+        },
+        {
+          "name": "Percentage of commuting on foot",
+          "icon": "fa-solid fa-shoe-prints fa-2x"
+        }
+      ],
+      "button_dict1": {
+        "btn-title": "car-bus",
+        "values": ["car", "bus"],
+        "sum-values": ["car-bus-total", "car", "bus"],
+        "main-title": "Transportation Means",
+        "value-description": ["Cars", "Buses"],
+        "sum-value-description": ["Cars and Buses", "Cars", "Buses"],
+        "toggle-title": "Select a display method",
+        "second-toggle-title": "Select transportation type",
+        "indicator-name": [
+          "The percentage of using the car as a means of transportation",
+          "The percentage of using the bus as a means of transportation"
+        ],
+        "indicator-unit": "%"
+      },
+      "button_dict2": {
+        "btn-title": "air-land",
+        "values": ["air", "land"],
+        "sum-values": ["totals", "air", "land"],
+        "main-title": "Tourism Tours",
+        "value-description": ["Air Tourism", "Land Tourism"],
+        "sum-value-description": [
+          "Air and Land Tours",
+          "Air Tourism Tours",
+          "Land Tourism Tours"
+        ],
+        "toggle-title": "Select a display method",
+        "second-toggle-title": "Select tourism tour type",
+        "indicator-name": [
+          "Percentage of air transportation used in domestic tourist trips",
+          "Percentage of land transportation used in local tourist trips"
+        ],
+        "indicator-unit": "%"
+      },
+      "tooltips": [
+        "Connectivity Summary",
+        "Means of Transportation",
+        "Means of Transportation Map",
+        "Air Vs. Land Tourism",
+        "Air Vs. Land Tourism Heat Map"
+      ]
+    },
+  
+    "Economic": {
+      "logo": "svg",
+      "topic-comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, fuga harum officia eligendi at error in asperiores aliquid delectus sed aut, praesentium nam deserunt alias! Beatae eveniet cum nisi accusantium!",
+      "featured-indicators": [
+        {
+          "name": "The growth rate of producing factories",
+          "icon": "fa-solid fa-industry fa-2x"
+        },
+        {
+          "name": "Emiratisation rate in the private sector",
+          "icon": "fa-solid fa-person fa-2x"
+        },
+        {
+          "name": "The rate of alienation of foreign workers in producing factories",
+          "icon": "fa-solid fa-user-gear fa-2x"
+        },
+        {
+          "name": "The growth rate of the number of workers in the productive factories",
+          "icon": "fa-solid fa-arrow-trend-up fa-2x"
+        },
+        {
+          "name": "Availability of good places for tourism",
+          "icon": "fa-solid fa-ranking-star fa-2x"
+        },
+        {
+          "name": "Household spending on entertainment",
+          "icon": "fa-solid fa-money-bill-trend-up fa-2x"
+        }
+      ],
+      "tooltips": [
+        "ُEconomy Summary",
+        "Population Growth Trend",
+        "Population Growth Map",
+        "Fourth section",
+        "Fifth section"
+      ]
+    },
+    "General": {
+      "logo": "svg",
+      "topic-comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, fuga harum officia eligendi at error in asperiores aliquid delectus sed aut, praesentium nam deserunt alias! Beatae eveniet cum nisi accusantium!",
+      "featured-indicators": [
+        {
+          "name": "average family size",
+          "icon": "fa-solid fa-people-roof fa-2x"
+        },
+        {
+          "name": "Actual Population Density",
+          "icon": "fa-solid fa-people-group fa-2x"
+        },
+        {
+          "name": "population growth rate",
+          "icon": "fa-solid fa-person-arrow-up-from-line fa-2x"
+        },
+        {
+          "name": "average monthly income",
+          "icon": "fa-solid fa-sack-dollar fa-2x"
+        },
+        {
+          "name": "average monthly saving",
+          "icon": "fa-solid fa-wallet fa-2x"
+        },
+        {
+          "name": "Female-headed households",
+          "icon": "fa-solid fa-person fa-2x"
+        }
+      ],
+      "button_dict1": {
+        "btn-title": "income-categories",
+        "values": ["> 20K", "10-15K", "15K-20K", "5k-10K", "< 5K"],
+        "sum-values": ["car-bus-total2", "car2", "bus2"],
+        "main-title": "Transportation Means2",
+        "value-description": ["Car2s", "Buses2"],
+        "sum-value-description": ["> 20000", "between 10000-14999", "between 15000-19999", "between 5000-9999", "less than 5000"],
+        "toggle-title": "Select a display method2",
+        "second-toggle-title": "Select transportation type2",
+        "indicator-name": [
+          "the income greater than 20000",
+          "the incomes between 10000-14999",
+          "The incomes between 15000-19999",
+          "the incomes between 5000-9999",
+          "the incomes less than 5000"
+        ],
+        "indicator-unit": "R.s",
+        "indicator-desc": "Monthly Income"
+      },
+      "tooltips":[
+        "General Summary",
+        "Population Growth Trend",
+        "Population Growth Map",
+        "",
+        ""
+      ]
+      
+    },
+    "Identity": {
+      "logo": "svg",
+      "topic-comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, fuga harum officia eligendi at error in asperiores aliquid delectus sed aut, praesentium nam deserunt alias! Beatae eveniet cum nisi accusantium!",
+      "featured-indicators": [
+        {
+          "name": "Minute time for sports activities",
+          "icon": "fa-solid fa-clock fa-2x"
+        },
+        {
+          "name": "sport activities",
+          "icon": "fa-solid fa-dumbbell fa-2x"
+        },
+        {
+          "name": "Estimated total life expectancy since birth",
+          "icon": "fa-solid fa-heart fa-2x"
+        },
+        {
+          "name": "Total average household size",
+          "icon": "fa-solid fa-people-roof fa-2x"
+        },
+        {
+          "name": "Annual growth rate (%) for Saudis",
+          "icon": "fa-solid fa-arrow-up fa-2x"
+        },
+        {
+          "name": "Annual growth rate (%) for non-Saudis",
+          "icon": "fa-solid fa-arrow-turn-up fa-2x"
+        },
+        {
+          "name": "total population",
+          "icon": "fa-solid fa-person fa-2x"
+        }
+      ],
+      "button_dict1": {
+        "btn-title": "saudi-nonsaudi",
+        "values": ["saudi", "nonsaudi"],
+        "sum-values": ["saudi-nonsaudi-total", "saudi", "nonsaudi"],
+        "main-title": "Annual Growth Rate",
+        "value-description": ["Saudi", "Non Saudi"],
+        "sum-value-description": ["Total", "Saudi", "Non Saudi"],
+        "toggle-title": "Select a display method",
+        "second-toggle-title": "Select nationality",
+        "indicator-name": [
+          "Annual growth rate (%) for Saudis",
+          "Annual growth rate (%) for non-Saudis"
+        ],
+        "indicator-unit": "%"
+      },
+      "tooltips": [
+        "Knowledge Summary",
+        "Population Growth Trend",
+        "Population Growth Map",
+        "",
+        ""
+      ]
+    },
+    "Knowledge": {
+      "logo": "svg",
+      "topic-comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, fuga harum officia eligendi at error in asperiores aliquid delectus sed aut, praesentium nam deserunt alias! Beatae eveniet cum nisi accusantium!",
+      "featured-indicators": [
+        {
+          "name": "Average number of study year",
+          "icon": "fa-solid fa-calendar-days fa-2x"
+        },
+        {
+          "name": "illiteracy rate",
+          "icon": "fa-solid fa-pen-nib fa-2x"
+        },
+        {
+          "name": "Average students in pre-university",
+          "icon": "fa-solid fa-school fa-2x"
+        },
+        {
+          "name": "Average percentage of schools",
+          "icon": "fa-solid fa-percent fa-2x"
+        },
+        {
+          "name": "Percentage of undergraduate students",
+          "icon": "fa-solid fa-percent fa-2x"
+        },
+        {
+          "name": "Private and public universities",
+          "icon": "fa-solid fa-graduation-cap fa-2x"
+        },
+        {
+          "name": "Students with a high diploma",
+          "icon": "fa-solid fa-user-graduate fa-2x"
+        },
+        {
+          "name": "Students with a master's degree",
+          "icon": "fa-solid fa-graduation-cap fa-2x"
+        }
+      ]
+  
+    },
+    "Livability": {
+      "logo": "svg",
+      "topic-comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, fuga harum officia eligendi at error in asperiores aliquid delectus sed aut, praesentium nam deserunt alias! Beatae eveniet cum nisi accusantium!",
+      "featured-indicators": [
+        {
+          "name": "accidents outside cities",
+          "icon": "fa-solid fa-road-circle-check fa-2x"
+        },
+        {
+          "name": "accidents within cities",
+          "icon": "fa-solid fa-city fa-2x"
+        },
+        {
+          "name": "death rate",
+          "icon": "fa-solid fa-skull fa-2x"
+        },
+        {
+          "name": "The homicide rate per 100,000 population",
+          "icon": "fa-solid fa-person-falling-burst fa-2x"
+        },
+        {
+          "name": "Theft crime rate",
+          "icon": "fa-solid fa-people-robbery fa-2x"
+        },
+        {
+          "name": "Per capita green space - square meters per person",
+          "icon": "fa-solid fa-tree fa-2x"
+        },
+        {
+          "name": "Per capita share of squares and public places",
+          "icon": "fa-solid fa-landmark-dome fa-2x"
+        }
+      ],
+      "button_dict1": {
+        "btn-title": "outside-inside",
+        "values": ["outside", "inside"],
+        "sum-values": ["outside-inside-total", "outside", "inside"],
+        "main-title": "Accidents Distribution",
+        "value-description": ["Accidents Outside", "Accidents Inside"],
+        "sum-value-description": ["Total Accidents", "Saudi", "Non Saudi"],
+        "toggle-title": "Select a display method",
+        "second-toggle-title": "Select Accident Location",
+        "indicator-name": [
+          "accidents outside cities",
+          "accidents within cities"
+        ],
+        "indicator-unit": "accident"
+      },
+      "button_dict2": {
+        "btn-title": "saudi-nonsaudi-accidents",
+        "values": ["saudi-acc", "nonsaudi-acc"],
+        "sum-values": ["acc-totals", "saudi-acc", "nonsaudi-acc"],
+        "main-title": "Accidents by Nationality",
+        "value-description": ["Saudi Accidents", "Non Saudi Accidents"],
+        "sum-value-description": [
+          "Total Accidents",
+          "Saudi Accidents",
+          "Non Saudi Accidents"
+        ],
+        "toggle-title": "Select a display method",
+        "second-toggle-title": "Select Nationality",
+        "indicator-name": [
+          "Percentage of road accidents for Saudi",
+          "Percentage of accidents incurred by non-Saudi"
+        ],
+        "indicator-unit": "%"
+      },
+      "tooltips": [
+        "Livability Summary",
+        "Accidents by Location",
+        "Accidents by Location Map",
+        "Accidents by Nationality",
+        "Accidents by Nationality Heat Map"
+      ]
+    }
+  }
+  
