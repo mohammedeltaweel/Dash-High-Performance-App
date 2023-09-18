@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir --upgrade -r requirements.txt
 COPY . /app
 
 # start the server
-CMD ["gunicorn", "app:server", "-b", "0.0.0.0:8089", "-w", "4"]
+CMD ["gunicorn", "layout:server", "-b", "0.0.0.0:8089", "-w", "4"]
