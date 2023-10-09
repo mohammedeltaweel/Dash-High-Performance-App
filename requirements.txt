@@ -5,3 +5,5 @@ pandas
 flask_caching
 redis
 gunicorn
+psycopg2-binary
+python-dotenv

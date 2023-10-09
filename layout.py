@@ -429,4 +429,4 @@ clientside_callback(
     Output(f"callback2-{topic}", 'children'), Input(f"callback2-{topic}", 'children'))
 
 if __name__ == "__main__":
-    app.run_server(port=8089, debug=True)
+    app.run_server(port=8080, debug=True)
